@@ -1,4 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.6;
+}
 .First-div{
-    align-items: center;
+    text-align: center;
     background-color: rgb(27, 245, 46);
+    color: white;
+    padding: 40px;
+}
+.content{
+    width: 80%;
+    margin: 20px auto ;
+    
+}
+.Menu{
+    
+    background-color: rgb(216, 209, 209);
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+    border-radius: 8px;
+
+}
+.permbajtja{
+    width: 70%;
+    float: left;
+    padding: 20px;
+    margin-left: 5%;
+    
+    border: 1px, gray , solid;
+    box-shadow: 2px 2px 2px #665e5e;
+}
+.clear{
+    clear: both;
+}
+
+footer{
+    background-color: rgb(121, 101, 101);
+    text-align: center;
 }
